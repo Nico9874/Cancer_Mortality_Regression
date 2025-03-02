@@ -13,6 +13,8 @@ Este proyecto realiza un **análisis de regresión** para predecir la **tasa de 
 1. Clonar este repositorio:  
    ```sh
    git clone https://github.com/Nico9874/cancer-mortality-regression.git
+   ```
+2. Ejecutar el código en un entorno **R** para analizar los resultados.
 
 ## Resultados clave  
 Se compararon tres modelos de regresión utilizando diferentes variables predictoras para estimar la tasa de mortalidad por cáncer (`target_deathrate`).  
@@ -23,6 +25,7 @@ Se compararon tres modelos de regresión utilizando diferentes variables predict
 | `pctpubliccoveragealone` | 0.166 | 26.94 | 19.85 |
 | `PCA_Component_1`       | **0.229** | **25.94** | **19.10** |
 
-### **Conclusión:**  
-✅ El modelo basado en PCA_Component_1 es la mejor opción inicial, ya que presenta el mayor R² (0.23) y los menores errores (RMSE: 25.94, MAE: 19.10).
-📌 Sin embargo, el ajuste sigue siendo limitado. Se recomienda probar con más variables o explorar modelos más avanzados (regresión múltiple, machine learning) para mejorar la precisión.
+## Conclusión  
+ **El modelo basado en PCA_Component_1 es la mejor opción inicial**, ya que presenta el mayor **R² (0.23)** y los menores **errores (RMSE: 25.94, MAE: 19.10)**.  
+ Sin embargo, el ajuste sigue siendo limitado. Se recomienda probar con más variables o explorar modelos más avanzados (**regresión múltiple, machine learning**) para mejorar la precisión.
+
